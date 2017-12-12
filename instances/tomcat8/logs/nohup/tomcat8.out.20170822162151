@@ -1,0 +1,8 @@
+Using CATALINA_BASE:   ../../../instances/tomcat8
+Using CATALINA_HOME:   ../../../engines/apache-tomcat-8.5.16
+Using CATALINA_TMPDIR: ../../../instances/tomcat8/temp
+Using JRE_HOME:        /home/ssong/Apps/java/jdk1.7.0_80
+Using CLASSPATH:       ../../../engines/apache-tomcat-8.5.16/bin/bootstrap.jar:../../../engines/apache-tomcat-8.5.16/bin/tomcat-juli.jar
+Unrecognized VM option 'MetaspaceSize=256m'
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.

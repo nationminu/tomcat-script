@@ -1,0 +1,6 @@
+Using CATALINA_BASE:   ../../../instances/tomcat8
+Using CATALINA_HOME:   ../../../engines/apache-tomcat-8.5.16
+Using CATALINA_TMPDIR: ../../../instances/tomcat8/temp
+Using JRE_HOME:        /home/ssong/Apps/java/jdk1.8.0_121
+Using CLASSPATH:       ../../../engines/apache-tomcat-8.5.16/bin/bootstrap.jar:../../../engines/apache-tomcat-8.5.16/bin/tomcat-juli.jar
+오류: JMX 커넥터 서버 통신 오류: service:jmx:rmi://192.168.56.100

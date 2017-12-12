@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#
+# jmxsh
+#
+# A shell wrapper for jmxsh.
+#
+# Assumes java is in the PATH.  If not, will need to edit this script.
+#
+# You'll need to modify this when you find a place to jmxsh.
+#
+JMXSH_JARFILE=./ext/jmxsh-R5.jar
+
+exec java -jar $JMXSH_JARFILE "$@"

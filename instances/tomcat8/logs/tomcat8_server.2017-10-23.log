@@ -1,0 +1,394 @@
+23-Oct-2017 13:03:57.528 경고 [main] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [session] does not meet these criteria and has been changed to [/session]
+23-Oct-2017 13:03:57.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.16
+23-Oct-2017 13:03:57.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 21 2017 17:01:09 UTC
+23-Oct-2017 13:03:57.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.16.0
+23-Oct-2017 13:03:57.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-Oct-2017 13:03:57.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-96-generic
+23-Oct-2017 13:03:57.558 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Oct-2017 13:03:57.558 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/ssong/Apps/java/jdk1.7.0_80/jre
+23-Oct-2017 13:03:57.558 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_80-b15
+23-Oct-2017 13:03:57.558 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Oct-2017 13:03:57.558 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ssong/Apps/git-local/tomcat-script/instances/tomcat8
+23-Oct-2017 13:03:57.558 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ssong/Apps/git-local/tomcat-script/engines/apache-tomcat-8.5.16
+23-Oct-2017 13:03:57.558 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=../../../instances/tomcat8/conf/logging.properties
+23-Oct-2017 13:03:57.558 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Oct-2017 13:03:57.558 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -D[SERVER_NAME=tomcat8]
+23-Oct-2017 13:03:57.559 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dserver.base=../../..
+23-Oct-2017 13:03:57.559 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base.log=../../../instances/tomcat8/logs
+23-Oct-2017 13:03:57.559 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+23-Oct-2017 13:03:57.559 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dserver.encoding=UTF-8
+23-Oct-2017 13:03:57.559 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dserver.name=tomcat8
+23-Oct-2017 13:03:57.559 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+23-Oct-2017 13:03:57.559 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+23-Oct-2017 13:03:57.559 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=256m
+23-Oct-2017 13:03:57.559 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=256m
+23-Oct-2017 13:03:57.559 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelGC
+23-Oct-2017 13:03:57.559 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelOldGC
+23-Oct-2017 13:03:57.559 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -verbose:gc
+23-Oct-2017 13:03:57.559 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xloggc:../../../instances/tomcat8/logs/gclog/tomcat8_gc.log
+23-Oct-2017 13:03:57.560 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCDetails
+23-Oct-2017 13:03:57.560 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCTimeStamps
+23-Oct-2017 13:03:57.560 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintHeapAtGC
+23-Oct-2017 13:03:57.560 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+23-Oct-2017 13:03:57.560 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=../../../instances/tomcat8/logs/tomcat8_java_pid_20171023130356.hprof
+23-Oct-2017 13:03:57.560 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+23-Oct-2017 13:03:57.560 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+23-Oct-2017 13:03:57.560 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=true
+23-Oct-2017 13:03:57.560 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.access.file=../../../commons/conf/jmxremote.access
+23-Oct-2017 13:03:57.560 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.password.file=../../../commons/conf/jmxremote.password
+23-Oct-2017 13:03:57.560 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=9999
+23-Oct-2017 13:03:57.560 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.host=127.0.0.1
+23-Oct-2017 13:03:57.560 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+23-Oct-2017 13:03:57.560 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.bind.port=8080
+23-Oct-2017 13:03:57.561 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.bind.port=8443
+23-Oct-2017 13:03:57.561 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dajp.bind.port=8009
+23-Oct-2017 13:03:57.561 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dshutdown.bind.port=8005
+23-Oct-2017 13:03:57.561 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dmanagement.bind.port=9990
+23-Oct-2017 13:03:57.561 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.egd=file:/dev/./urandom
+23-Oct-2017 13:03:57.561 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.net.preferIPv4Stack=true
+23-Oct-2017 13:03:57.561 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Oct-2017 13:03:57.561 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Oct-2017 13:03:57.561 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=../../../instances/tomcat8
+23-Oct-2017 13:03:57.561 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../../../engines/apache-tomcat-8.5.16
+23-Oct-2017 13:03:57.561 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../../../instances/tomcat8/temp
+23-Oct-2017 13:03:57.561 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [:../../../commons/native:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+23-Oct-2017 13:03:57.727 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Oct-2017 13:03:57.745 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Oct-2017 13:03:57.747 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Oct-2017 13:03:57.750 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Oct-2017 13:03:57.751 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9990"]
+23-Oct-2017 13:03:57.751 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Oct-2017 13:03:57.751 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 734 ms
+23-Oct-2017 13:03:57.795 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Oct-2017 13:03:57.795 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.16
+23-Oct-2017 13:03:58.340 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Oct-2017 13:03:58.400 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/rocker.war]
+23-Oct-2017 13:04:00.052 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Oct-2017 13:04:00.060 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Oct-2017 13:04:00.072 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Set web app root system property: 'webapp.root' = [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/rocker/]
+23-Oct-2017 13:04:00.125 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j from [classpath:/config/properties/log4j.xml]
+23-Oct-2017 13:04:00.227 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Oct-2017 13:04:00.763 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'servlet'
+23-Oct-2017 13:04:01.014 심각 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log StandardWrapper.Throwable
+ org.springframework.beans.factory.BeanDefinitionStoreException: Unexpected exception parsing XML document from URL [file:/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/rocker/WEB-INF/classes/config/spring/servlet-context.xml]; nested exception is java.lang.UnsupportedClassVersionError: javax/annotation/ManagedBean : Unsupported major.minor version 52.0 (unable to load class [javax.annotation.ManagedBean])
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:414)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:614)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:515)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1183)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1099)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:989)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4931)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5241)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:988)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1860)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.UnsupportedClassVersionError: javax/annotation/ManagedBean : Unsupported major.minor version 52.0 (unable to load class [javax.annotation.ManagedBean])
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2280)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.registerDefaultFilters(ClassPathScanningCandidateComponentProvider.java:188)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.<init>(ClassPathBeanDefinitionScanner.java:164)
+	at org.springframework.context.annotation.ComponentScanBeanDefinitionParser.createScanner(ComponentScanBeanDefinitionParser.java:129)
+	at org.springframework.context.annotation.ComponentScanBeanDefinitionParser.configureScanner(ComponentScanBeanDefinitionParser.java:100)
+	at org.springframework.context.annotation.ComponentScanBeanDefinitionParser.parse(ComponentScanBeanDefinitionParser.java:86)
+	at org.springframework.beans.factory.xml.NamespaceHandlerSupport.parse(NamespaceHandlerSupport.java:74)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1411)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1401)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:172)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.doRegisterBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:142)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:94)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:508)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	... 33 more
+
+23-Oct-2017 13:04:01.016 심각 [localhost-startStop-1] org.apache.catalina.core.StandardContext.loadOnStartup Servlet [servlet] in web application [/rocker] threw load() exception
+ java.lang.UnsupportedClassVersionError: javax/annotation/ManagedBean : Unsupported major.minor version 52.0 (unable to load class [javax.annotation.ManagedBean])
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2280)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.registerDefaultFilters(ClassPathScanningCandidateComponentProvider.java:188)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.<init>(ClassPathBeanDefinitionScanner.java:164)
+	at org.springframework.context.annotation.ComponentScanBeanDefinitionParser.createScanner(ComponentScanBeanDefinitionParser.java:129)
+	at org.springframework.context.annotation.ComponentScanBeanDefinitionParser.configureScanner(ComponentScanBeanDefinitionParser.java:100)
+	at org.springframework.context.annotation.ComponentScanBeanDefinitionParser.parse(ComponentScanBeanDefinitionParser.java:86)
+	at org.springframework.beans.factory.xml.NamespaceHandlerSupport.parse(NamespaceHandlerSupport.java:74)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1411)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1401)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:172)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.doRegisterBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:142)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:94)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:508)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:614)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:515)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1183)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1099)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:989)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4931)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5241)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:988)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1860)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Oct-2017 13:04:01.020 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/rocker.war] has finished in [2,620] ms
+23-Oct-2017 13:04:01.021 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/manager]
+23-Oct-2017 13:04:01.150 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Oct-2017 13:04:01.157 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/manager] has finished in [136] ms
+23-Oct-2017 13:04:01.157 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/axis]
+23-Oct-2017 13:04:02.725 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Oct-2017 13:04:03.392 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/axis] has finished in [2,235] ms
+23-Oct-2017 13:04:03.392 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/jolokia]
+23-Oct-2017 13:04:03.484 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Oct-2017 13:04:03.495 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log jolokia-agent: No access restrictor found, access to any MBean is allowed
+23-Oct-2017 13:04:03.557 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/jolokia] has finished in [165] ms
+23-Oct-2017 13:04:03.570 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Oct-2017 13:04:03.572 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Oct-2017 13:04:03.577 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9990"]
+23-Oct-2017 13:04:03.579 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 5827 ms
+23-Oct-2017 14:42:34.739 경고 [main] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [session] does not meet these criteria and has been changed to [/session]
+23-Oct-2017 14:42:34.763 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.16
+23-Oct-2017 14:42:34.763 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 21 2017 17:01:09 UTC
+23-Oct-2017 14:42:34.763 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.16.0
+23-Oct-2017 14:42:34.763 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-Oct-2017 14:42:34.763 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-96-generic
+23-Oct-2017 14:42:34.763 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Oct-2017 14:42:34.763 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/ssong/Apps/java/jdk1.7.0_80/jre
+23-Oct-2017 14:42:34.764 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_80-b15
+23-Oct-2017 14:42:34.764 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Oct-2017 14:42:34.764 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ssong/Apps/git-local/tomcat-script/instances/tomcat8
+23-Oct-2017 14:42:34.764 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ssong/Apps/git-local/tomcat-script/engines/apache-tomcat-8.5.16
+23-Oct-2017 14:42:34.764 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=../../../instances/tomcat8/conf/logging.properties
+23-Oct-2017 14:42:34.764 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Oct-2017 14:42:34.764 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -D[SERVER_NAME=tomcat8]
+23-Oct-2017 14:42:34.764 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dserver.base=../../..
+23-Oct-2017 14:42:34.764 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base.log=../../../instances/tomcat8/logs
+23-Oct-2017 14:42:34.764 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+23-Oct-2017 14:42:34.764 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dserver.encoding=UTF-8
+23-Oct-2017 14:42:34.764 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dserver.name=tomcat8
+23-Oct-2017 14:42:34.764 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+23-Oct-2017 14:42:34.764 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+23-Oct-2017 14:42:34.764 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=256m
+23-Oct-2017 14:42:34.765 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=256m
+23-Oct-2017 14:42:34.765 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelGC
+23-Oct-2017 14:42:34.765 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelOldGC
+23-Oct-2017 14:42:34.765 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -verbose:gc
+23-Oct-2017 14:42:34.765 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xloggc:../../../instances/tomcat8/logs/gclog/tomcat8_gc.log
+23-Oct-2017 14:42:34.765 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCDetails
+23-Oct-2017 14:42:34.765 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCTimeStamps
+23-Oct-2017 14:42:34.765 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintHeapAtGC
+23-Oct-2017 14:42:34.765 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+23-Oct-2017 14:42:34.765 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=../../../instances/tomcat8/logs/tomcat8_java_pid_20171023144233.hprof
+23-Oct-2017 14:42:34.765 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+23-Oct-2017 14:42:34.765 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+23-Oct-2017 14:42:34.765 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=true
+23-Oct-2017 14:42:34.765 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.access.file=../../../commons/conf/jmxremote.access
+23-Oct-2017 14:42:34.766 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.password.file=../../../commons/conf/jmxremote.password
+23-Oct-2017 14:42:34.766 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=9999
+23-Oct-2017 14:42:34.766 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.host=192.168.56.100
+23-Oct-2017 14:42:34.766 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=192.168.56.100
+23-Oct-2017 14:42:34.766 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.bind.port=8080
+23-Oct-2017 14:42:34.766 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.bind.port=8443
+23-Oct-2017 14:42:34.766 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dajp.bind.port=8009
+23-Oct-2017 14:42:34.766 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dshutdown.bind.port=8005
+23-Oct-2017 14:42:34.766 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dmanagement.bind.port=9990
+23-Oct-2017 14:42:34.766 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.egd=file:/dev/./urandom
+23-Oct-2017 14:42:34.766 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.net.preferIPv4Stack=true
+23-Oct-2017 14:42:34.766 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Oct-2017 14:42:34.766 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Oct-2017 14:42:34.767 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=../../../instances/tomcat8
+23-Oct-2017 14:42:34.767 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=../../../engines/apache-tomcat-8.5.16
+23-Oct-2017 14:42:34.767 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=../../../instances/tomcat8/temp
+23-Oct-2017 14:42:34.767 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [:../../../commons/native:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+23-Oct-2017 14:42:34.922 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Oct-2017 14:42:34.975 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Oct-2017 14:42:34.980 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Oct-2017 14:42:34.988 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Oct-2017 14:42:34.991 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9990"]
+23-Oct-2017 14:42:34.992 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Oct-2017 14:42:34.992 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 803 ms
+23-Oct-2017 14:42:35.072 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Oct-2017 14:42:35.072 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.16
+23-Oct-2017 14:42:35.669 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Oct-2017 14:42:35.755 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/rocker.war]
+23-Oct-2017 14:42:37.368 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Oct-2017 14:42:37.376 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Oct-2017 14:42:37.388 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Set web app root system property: 'webapp.root' = [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/rocker/]
+23-Oct-2017 14:42:37.446 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j from [classpath:/config/properties/log4j.xml]
+23-Oct-2017 14:42:37.560 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Oct-2017 14:42:37.934 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'servlet'
+23-Oct-2017 14:42:38.232 심각 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log StandardWrapper.Throwable
+ org.springframework.beans.factory.BeanDefinitionStoreException: Unexpected exception parsing XML document from URL [file:/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/rocker/WEB-INF/classes/config/spring/servlet-context.xml]; nested exception is java.lang.UnsupportedClassVersionError: javax/annotation/ManagedBean : Unsupported major.minor version 52.0 (unable to load class [javax.annotation.ManagedBean])
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:414)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:614)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:515)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1183)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1099)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:989)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4931)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5241)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:988)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1860)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.UnsupportedClassVersionError: javax/annotation/ManagedBean : Unsupported major.minor version 52.0 (unable to load class [javax.annotation.ManagedBean])
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2280)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.registerDefaultFilters(ClassPathScanningCandidateComponentProvider.java:188)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.<init>(ClassPathBeanDefinitionScanner.java:164)
+	at org.springframework.context.annotation.ComponentScanBeanDefinitionParser.createScanner(ComponentScanBeanDefinitionParser.java:129)
+	at org.springframework.context.annotation.ComponentScanBeanDefinitionParser.configureScanner(ComponentScanBeanDefinitionParser.java:100)
+	at org.springframework.context.annotation.ComponentScanBeanDefinitionParser.parse(ComponentScanBeanDefinitionParser.java:86)
+	at org.springframework.beans.factory.xml.NamespaceHandlerSupport.parse(NamespaceHandlerSupport.java:74)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1411)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1401)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:172)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.doRegisterBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:142)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:94)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:508)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	... 33 more
+
+23-Oct-2017 14:42:38.233 심각 [localhost-startStop-1] org.apache.catalina.core.StandardContext.loadOnStartup Servlet [servlet] in web application [/rocker] threw load() exception
+ java.lang.UnsupportedClassVersionError: javax/annotation/ManagedBean : Unsupported major.minor version 52.0 (unable to load class [javax.annotation.ManagedBean])
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2280)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.registerDefaultFilters(ClassPathScanningCandidateComponentProvider.java:188)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.<init>(ClassPathBeanDefinitionScanner.java:164)
+	at org.springframework.context.annotation.ComponentScanBeanDefinitionParser.createScanner(ComponentScanBeanDefinitionParser.java:129)
+	at org.springframework.context.annotation.ComponentScanBeanDefinitionParser.configureScanner(ComponentScanBeanDefinitionParser.java:100)
+	at org.springframework.context.annotation.ComponentScanBeanDefinitionParser.parse(ComponentScanBeanDefinitionParser.java:86)
+	at org.springframework.beans.factory.xml.NamespaceHandlerSupport.parse(NamespaceHandlerSupport.java:74)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1411)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1401)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:172)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.doRegisterBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:142)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:94)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:508)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:614)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:515)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1183)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1099)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:989)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4931)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5241)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:988)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1860)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Oct-2017 14:42:38.239 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/rocker.war] has finished in [2,481] ms
+23-Oct-2017 14:42:38.240 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/manager]
+23-Oct-2017 14:42:38.406 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Oct-2017 14:42:38.419 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/manager] has finished in [179] ms
+23-Oct-2017 14:42:38.419 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/axis]
+23-Oct-2017 14:42:40.220 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Oct-2017 14:42:41.101 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/axis] has finished in [2,682] ms
+23-Oct-2017 14:42:41.101 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/jolokia]
+23-Oct-2017 14:42:41.227 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Oct-2017 14:42:41.243 정보 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log jolokia-agent: No access restrictor found, access to any MBean is allowed
+23-Oct-2017 14:42:41.357 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ssong/Apps/git-local/tomcat-script/instances/tomcat8/webapps/jolokia] has finished in [256] ms
+23-Oct-2017 14:42:41.376 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Oct-2017 14:42:41.378 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Oct-2017 14:42:41.379 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9990"]
+23-Oct-2017 14:42:41.380 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 6387 ms
