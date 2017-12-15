@@ -13,8 +13,7 @@ export CATALINA_BASE=${SERVER_HOME}/instances/${SERVER_NAME}
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${SERVER_HOME}/commons/native
 export CLASSPATH=${CLASSPATH}:${SERVER_HOME}/commons/lib:${SERVER_HOME}/commons/conf
 
-export JAVA_HOME=${HOME}/Apps/java/jdk1.8.0_121
-#export JAVA_HOME=${HOME}/Apps/java/jdk1.7.0_80
+#export JAVA_HOME=/usr/java/jdk1.8.0_121
 #export PATH=${JAVA_HOME}/bin:$PATH 
 export LOG_HOME=${CATALINA_BASE}/logs
 
@@ -57,6 +56,7 @@ JAVA_OPTS="${JAVA_OPTS} -XX:+PrintGCTimeStamps"
 JAVA_OPTS="${JAVA_OPTS} -XX:+PrintHeapAtGC"
 JAVA_OPTS="${JAVA_OPTS} -XX:+HeapDumpOnOutOfMemoryError"
 JAVA_OPTS="${JAVA_OPTS} -XX:HeapDumpPath=$LOG_HOME/${SERVER_NAME}_java_pid_$DATE.hprof"
+#JAVA_OPTS="${JAVA_OPTS} -XX:OnOutOfMemoryError='${SERVER_HOME}/bin/heap_dump.sh;${SERVER_HOME}/bin/kill.sh;${SERVER_HOME}/bin/start.sh'"
 
 JAVA_OPTS="${JAVA_OPTS} -Dcom.sun.management.jmxremote"
 JAVA_OPTS="${JAVA_OPTS} -Dcom.sun.management.jmxremote.ssl=false"

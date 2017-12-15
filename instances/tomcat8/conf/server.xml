@@ -101,11 +101,6 @@
       <Host name="localhost"  appBase="webapps"
             unpackWARs="true" autoDeploy="true">
 
-        <Context path="session" docBase="session">
-               <ResourceLink global="jdbc/sample" name="jdbc/sample"
-                               type="javax.sql.DataSource" />
-        </Context>
-
         <!-- application Directory
         <Context path="/" docBase="${application.dir}" allowLinking="true">
                <ResourceLink global="jdbc/sample" name="jdbc/sample"
