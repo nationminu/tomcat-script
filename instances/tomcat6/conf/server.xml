@@ -7,7 +7,7 @@
 <!-- ## History :                                                       -->
 <!-- ################################################################## --> 
 
-<Server port="8005" shutdown="SHUTDOWN">
+<Server port="${shutdown.bind.port}" shutdown="SHUTDOWN">
 
 <!-- ################################################################## -->
 <!-- ## Section 1. Global Configuration                                 -->
